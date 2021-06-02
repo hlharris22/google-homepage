@@ -3,49 +3,126 @@
   <head>
     <meta charset="UTF-8" />
     <title>Google Home Page</title>
+    <link rel="stylesheet" href="styles/style.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Roboto"
     />
   </head>
   <body>
-    <style>
-      .top-left a {
-        font-size: 14px;
-        color: #222222;
-        font-family: Roboto;
-        text-decoration: none;
-      }
-      a:hover {
-        text-decoration: underline;
-      }
-      #about {
-        float: left;
-      }
-    </style>
-    <main>
-      <header>
-        <div class="top-left">
-          <div id="about">
+    <header>
+      <nav class="header-nav">
+        <ul class="about-store">
+          <li>
             <a
               href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header"
               >About</a
             >
-          </div>
-          <div id="store">
+          </li>
+          <li>
             <a
               href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US"
               >Store</a
             >
-          </div>
-        </div>
-      </header>
-      <div>
+          </li>
+        </ul>
+        <ul class="personal">
+          <li>
+            <a href="https://mail.google.com/">Gmail</a>
+          </li>
+          <li>
+            <a href="https://images.google.com/">Images</a>
+          </li>
+          <li>
+            <a href="https://workspace.google.com/"
+              ><div class="app-image" alt="3x3 row of dots"></div
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com/hlharris22"
+              ><img
+                class="personal-icon"
+                src="images/account_logo.png"
+                height="32px"
+                alt="personal google icon"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="main-logo">
         <img
           src="images/googlelogo_color_272x92dp.png"
+          class="logo"
           alt="The multicolor Google logo"
         />
       </div>
+      <form>
+        <div class="search-bar-outer">
+          <div id="search-box">
+            <img
+              id="mag-glass"
+              src="images/1024px-Google_Magnifying_Glass.svg.png"
+              alt="magnifying glass"
+            /><a href="https://en.wikipedia.org/wiki/Google_Voice_Search"
+              ><img
+                id="microphone"
+                src="images/Google_microphone_logo.png"
+                alt="" /></a
+            ><input id="text-box" type="text" />
+          </div>
+        </div>
+        <ul class="search-buttons">
+          <li>
+            <button
+              type="button"
+              name="google-search"
+              class="button"
+              id="google-search"
+            >
+              Google Search
+            </button>
+          </li>
+          <li>
+            <button
+              type="button"
+              name="feeling-lucky"
+              class="button"
+              id="feeling-lucky"
+            >
+              I'm Feeling Lucky
+            </button>
+          </li>
+        </ul>
+      </form>
     </main>
+    <footer>
+      <nav class="footer-nav">
+        <ul class="bottom-left">
+          <li><a href="https://ads.google.com/">Advertising</a></li>
+          <li><a href="https://smallbusiness.withgoogle.com/">Business</a></li>
+          <li>
+            <a href="https://www.google.com/search/howsearchworks/"
+              >How Search Works</a
+            >
+          </li>
+        </ul>
+        <ul class="middle">
+          <a href="https://sustainability.google/"
+            ><img
+              src="/images/carbon_neutral.png"
+              height="15px"
+              alt="green leaf"
+            />Carbon neutral since 2007</a
+          >
+        </ul>
+        <ul class="bottom-right">
+          <li><a href="https://policies.google.com/">Privacy</a></li>
+          <li><a href="https://policies.google.com/">Terms</a></li>
+          <li><a href="">Settings</a></li>
+        </ul>
+      </nav>
+    </footer>
   </body>
 </html>

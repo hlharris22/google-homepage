@@ -1,0 +1,151 @@
+html,
+body {
+  min-height: 100%;
+}
+body {
+  height: 100vh;
+  margin: 0;
+}
+a {
+  font-size: 14px;
+  color: #222;
+  font-family: Roboto;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+li {
+  list-style: none;
+}
+header {
+  position: relative;
+  top: 0;
+}
+.about-store {
+  display: inline-block;
+}
+.header-nav li {
+  display: inline-block;
+  padding: 10px;
+}
+.personal {
+  float: right;
+  margin: 0px;
+  padding-right: 40px;
+}
+.header-nav a {
+  color: #222222;
+}
+.app-image {
+  background-image: url(/images/gsprite.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: -131px -37px;
+  height: 32px;
+  width: 32px;
+}
+.personal-icon {
+  border-radius: 15px;
+}
+.personal-icon:hover {
+  box-shadow: 0px 1px 1px gray;
+}
+.main-logo {
+  background-color: transparent;
+  text-align: center;
+  margin: 50px;
+  margin-top: 150px;
+  margin-bottom: 20px;
+}
+.logo {
+  height: 92px;
+}
+form {
+  text-align: center;
+}
+.search-bar-outer {
+  display: inline-block;
+  text-align: center;
+  border: 1px solid rgb(219, 219, 219);
+  border-radius: 25px;
+  width: 560px;
+  height: 39px;
+}
+.search-bar-outer:hover {
+  border-top: 1px solid rgb(233, 233, 233);
+  box-shadow: 0px 0.5px 1px rgb(190, 190, 190);
+}
+#mag-glass {
+  height: 25px;
+  float: left;
+  padding-left: 20px;
+}
+#search-box {
+  padding-top: 8px;
+}
+#text-box {
+  width: 450px;
+  height: 20px;
+  border: transparent;
+}
+#text-box:focus {
+  outline-width: 0;
+}
+#microphone {
+  height: 25px;
+  float: right;
+  padding-right: 20px;
+}
+.search-buttons {
+  text-align: center;
+  padding-left: 0px;
+}
+.search-buttons li {
+  display: inline-block;
+  padding: 20px;
+}
+.button {
+  color: #3c4043;
+  border-width: 0;
+  padding: 10px;
+}
+.button:hover {
+  border: 1px solid rgb(219, 219, 219);
+  padding: 9px;
+  border-radius: 5px;
+}
+footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+.footer-nav {
+  display: flex;
+  align-items: center;
+}
+.footer-nav a {
+  color: #70757a;
+}
+.bottom-left {
+  float: left;
+}
+.bottom-left li {
+  display: inline-block;
+  padding: 10px;
+}
+.middle {
+  display: inline-block;
+  margin: auto;
+  padding-left: 0;
+  padding-right: 40px;
+}
+.bottom-right {
+  float: right;
+  padding-right: 40px;
+}
+.bottom-right li {
+  display: inline-block;
+  padding: 10px;
+}
