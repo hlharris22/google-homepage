@@ -38,7 +38,7 @@ header {
   color: #222222;
 }
 .app-image {
-  background-image: url(images/gsprite.png);
+  background-image: url("../images/gsprite.png");
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: -131px -37px;
